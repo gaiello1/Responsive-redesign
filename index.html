@@ -13,58 +13,64 @@
     <!-- page content goes into <body> -->
      
     <body>
-      <div class="block3 prof">
-        <div class="image-cards">
-          <img src="./assets/logo.png" style="width:25%">
-        </div>
+      <div class="header">
+        <img src="./assets/logo.png" style="width:25%">
+    
+        <div class="header-link">
         <a href="https://www.w3schools.com/" target="_blank">Volunteer</a> 
-        <div class="image-cards">
-          <img src="./assets/arrow.png" style="width:25%">
+        <img src="./assets/arrow.png" style="width:15px">
         </div>
+
+        <div class="header-link">
         <a href="https://www.w3schools.com/" target="_blank">Intern/ Extern</a> 
-        <div class="image-cards">
-          <img src="./assets/arrow.png" style="width:25%">
+        <img src="./assets/arrow.png" style="width:15px">
         </div>
+
+        <div class="header-link">
         <a href="https://www.w3schools.com/" target="_blank">Community</a> 
-        <div class="image-cards">
-          <img src="./assets/arrow.png" style="width:25%">
+        <img src="./assets/arrow.png" style="width:15px">
         </div>
+
+        <div class="header-link">
         <a href="https://www.w3schools.com/" target="_blank">About</a> 
-        <div class="image-cards">
-          <img src="./assets/arrow.png" style="width:25%">
+        <img src="./assets/arrow.png" style="width:15px">
         </div>
       </div>
       
       <nav>
-        <h1 class="title">OnlyProfs</h1>
-        <p>NEAQ Volunteer and Intern Application</p>
+        <h1>NEAQ Volunteer and Intern Application</h1>
         <ul>
-      
-          <li>Messages</li>
-          <div class="image-cards">
-            <img src="./assets/arrow.png" style="width:25%">
-          </div>
-          <li>Advising</li>
-          <div class="image-cards">
-            <img src="./assets/arrow.png" style="width:25%">
-          </div>
-          <li>Research</li>
-          <div class="image-cards">
-            <img src="./assets/arrow.png" style="width:25%">
-          </div>
-          <li>Courses</li>
-          <div class="image-cards">
-            <img src="./assets/arrow.png" style="width:25%">
-          </div>
-          <li>Contact</li>
-          <div class="image-cards">
-            <img src="./assets/arrow.png" style="width:25%">
-          </div>
+          <li>
+            <button class="button button5">1</button>
+            Personal Information
+          </li>
+          <li>
+            <button class="button button5">2</button>
+            Academic History
+          </li>
+          <li>
+            <button class="button button5">3</button>
+            Employment/ Volunteer History
+          </li>
+          <li>
+            <button class="button button5">4</button>
+            Position Based Questions
+          </li>
+          <li>
+            <button class="button button5">5</button>
+            References
+          </li>
+          <li>
+            <button class="button button5">6</button>
+            Documents
+          </li>
         </ul>
       </nav>
 
       <div class="block2 prof">
-        <a href="https://www.w3schools.com/" target="_blank">Login</a> 
+        <div class="login">
+        <a href="https://www.w3schools.com/" target="_blank">Login | Resume Application</a> 
+      </div>
 
         <div class="small">
           Thank you for your interest in the New England Aquarium. Before completing this application,
@@ -76,36 +82,88 @@
             have been fully completed. 
             Got a question? Maybe our FAQ can help!
 
-            <div class="image-cards">
-              <img src="./assets/arrow.png" style="width:25%">
+            <div class="tiny">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname">
             </div>
 
-
-           <div class="tiny">
-             Another box
-             
-           </div>
-
-           <div class="image-cards">
-            <img src="./assets/arrow.png" style="width:25%">
+          <div class="tiny">
+            <label for="fname">Last name:</label>
+            <input type="text" id="fname" name="fname">
           </div>
 
+          <div class="tiny">
+              <label for="fname">Perferred Pronouns:</label>
+              <input type="text" id="fname" name="fname">
+          
+          </div>
 
-         <div class="tiny">
-           Another box
-           
-         </div>
-            Please use the same name and email as the your usual login. 
-            Thank you for your interest in the New England Aquarium. Before completing this application,
-            please review the information in the above tabs to determine which program is best for you 
-            and your lifestyle. If you're applying for a Classic Corps Volunteer Position, Internship, 
-            or a live blue Skills Position please review the positions to learn more and ensure that 
-            you are eligible and meet all position requirements. Additionally, please note that due 
-            to the number of applications we receive, we are only able to consider applications that
-             have been fully completed. 
-             Got a question? Maybe our FAQ can help!
-             Please use the same name and email as the your usual login. 
-             <li>Contact</li>
+          <div class="tiny">
+            
+              <label for="fname">Phone:</label>
+              <input type="text" id="fname" name="fname">
+   
+          </div>
+
+            <div class="tiny">
+              <label for="fname">Email:</label>
+              <input type="text" id="fname" name="fname">
+            </div>
+      
+
+              <form action="/action_page.php">
+                What size shirt do you wear?
+                <div class="radiobuttonbox">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">S</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">M</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">L</label>
+            </div>
+          </form>
+      
+          <form action="/action_page.php">
+            What size shirt do you wear?
+            <div class="radiobuttonbox">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">S</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">M</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">L</label>
+        </div>
+      </form>
+
+  
+          <br>
+         
+          <div class="tiny">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+          </div>
+        <div class="tiny">
+          <label for="fname">Last name:</label>
+          <input type="text" id="fname" name="fname">
+        </div>
+        <div class="tiny">
+            <label for="fname">Perferred Pronouns:</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+        <div class="tiny">
+            <label for="fname">Phone:</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+          <div class="tiny">
+            <label for="fname">Email:</label>
+            <input type="text" id="fname" name="fname">
+          </div>
+
+          <div class="buttons">
+          <button class="button button4">Save</button>
+          <button class="button button4">Submit</button>
+        </div>
+
         </div>
       </div>
 
